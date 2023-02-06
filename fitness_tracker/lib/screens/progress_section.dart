@@ -118,7 +118,7 @@ class _ProgressSectionState extends State<ProgressSection> {
                     var key = caloriesBurnedPerWeek.keys.elementAt(index);
                     return ListTile(
                       title: Text(
-                          '${key.first.toString()} - ${key.last.toString()}'),
+                          '${key.first.toString().split(' ')[0]} - ${key.last.toString().split(' ')[0]}'),
                       subtitle:
                           Text('Total calories: ${caloriesBurnedPerWeek[key]}'),
                       shape: RoundedRectangleBorder(
