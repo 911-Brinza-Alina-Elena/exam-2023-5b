@@ -5,3 +5,5 @@ Steps to run the server:
 - Update the npm dependencies by running: npm install
 - Execute the server, using: npm start
 
+Don't forget to replace the url for the server in api.dart with your own. If you're running on your own phone (Android), enter the following command in terminal:
+```adb reverse tcp:2305 tcp:2305```
